@@ -1,0 +1,11 @@
+@startuml
+class Cuenta {
+ -numero : string
+ -descripcion : string
+ -saldo : float
+ +Cuenta(numero: string, descripcion : string, saldo : string)
+ +ingresar(): Any
+ +reintegrar() : Any
+ +transferir() : Any
+}
+@enduml
